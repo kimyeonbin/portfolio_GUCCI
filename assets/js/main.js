@@ -313,9 +313,8 @@ $(function(){
                 child = $(this).find('.desc span .char');
                 gsap.timeline({
                     paused: true,
-                    delay:1,
                 })
-                .to(child,{yPercent:-100, stagger:0.08, duration:0.5})
+                .to(child,{yPercent:-100, stagger:0.1, duration:0.5})
                 .play();
             });
             /**
