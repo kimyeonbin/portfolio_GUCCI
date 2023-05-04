@@ -83,16 +83,6 @@ body {
   cursor: pointer;
 }
 
-::-moz-selection {
-  background: #39655a;
-  color: #fff;
-}
-
-::selection {
-  background: #39655a;
-  color: #fff;
-}
-
 .blind {
   position: absolute;
   width: 1px;
