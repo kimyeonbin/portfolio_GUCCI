@@ -314,7 +314,7 @@ $(function(){
                 gsap.timeline({
                     paused: true,
                 })
-                .to(child,{yPercent:-100, stagger:0.1, duration:0.5})
+                .to(child,{yPercent:-100, stagger:0.08, duration:0.5})
                 .play();
             });
             /**
