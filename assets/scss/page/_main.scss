@@ -354,32 +354,14 @@
                     width: auto;
                 }
             }
-            .link-go{
-                position: relative;
-                display: flex;
-                gap: 10px;
-
-                .link-go-bg{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: absolute;
-                    top: 0;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    transition: .3s;
-                    opacity: 0;
-                    visibility: hidden;
-                    text-decoration: underline;
-                }
-            }
-            img{
-                max-width: 210px;
-
-                @include mobile{
-                    width: 40vw;
-                    object-fit: cover;
+            .more{
+                img{
+                    max-width: 210px;
+    
+                    @include mobile{
+                        width: 40vw;
+                        object-fit: cover;
+                    }
                 }
             }
         }
