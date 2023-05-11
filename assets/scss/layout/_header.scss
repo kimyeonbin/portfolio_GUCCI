@@ -8,6 +8,7 @@
     background: #fff;
     z-index: 15;
     transition: .3s;
+    
     &.hide{
         transform: translateY(-100%);
     }
