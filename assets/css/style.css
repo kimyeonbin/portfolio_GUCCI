@@ -23,9 +23,6 @@
   cursor: auto;
   overflow-wrap: break-word;
   word-break: break-word;
-  -moz-tab-size: 4;
-    -o-tab-size: 4;
-       tab-size: 4;
 }
 
 * {
@@ -450,13 +447,13 @@ body {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
   z-index: 100;
   -webkit-transition: 1s;
   transition: 1s;
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 .fix-btn a {
   display: block;
@@ -1010,39 +1007,11 @@ body {
     width: auto;
   }
 }
-.sc-collection .col-sticky .col-area .link-go {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-}
-.sc-collection .col-sticky .col-area .link-go .link-go-bg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  opacity: 0;
-  visibility: hidden;
-  text-decoration: underline;
-}
-.sc-collection .col-sticky .col-area img {
+.sc-collection .col-sticky .col-area .more img {
   max-width: 210px;
 }
 @media (max-width: 767px) {
-  .sc-collection .col-sticky .col-area img {
+  .sc-collection .col-sticky .col-area .more img {
     width: 40vw;
     -o-object-fit: cover;
        object-fit: cover;
