@@ -7,6 +7,17 @@ $(function(){
     ScrollTrigger.matchMedia({
         "(min-width: 1281px)": function() {
             /**
+             * @사이드내비_너비조절
+             */
+            $(window).resize(function(){
+
+                windowVal = $(window).width();
+
+                if(windowVal >= 1281){
+                    $('body').removeClass('hidden');
+                }
+            });
+            /**
              * @마우스커서1_제품찾기
              */
             $('.sc-more').mousemove(function(e){
