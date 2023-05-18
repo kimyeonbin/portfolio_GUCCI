@@ -328,10 +328,10 @@ $(function(){
                     disableOnInteraction: false
                 },
             });
-             /**
+            /**
              * @사이드내비_버튼
              */
-             $('.gnb .btn-menu').click(function(){
+            $('.gnb .btn-menu').click(function(){
                 $('.gnb .side-nav').toggleClass('on');
                 $('body').toggleClass('hidden');
             });
@@ -375,10 +375,10 @@ $(function(){
 
                 lastScroll2 = curr;
             });
-             /**
+            /**
              * @제품색상선택텍스트_호버
              */
-             $('.sc-theme .theme-area a').hover(function(){
+            $('.sc-theme .theme-area a').hover(function(){
                 $(this).siblings().css("opacity",0.1);
             },function(){
                 $(this).siblings().css("opacity",1);
