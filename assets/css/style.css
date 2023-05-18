@@ -1100,7 +1100,6 @@ body {
   .sc-cate .sticky-inner .cate-sticky {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto, auto;
   }
 }
 .sc-cate .sticky-inner .cate-sticky:nth-child(1) {
