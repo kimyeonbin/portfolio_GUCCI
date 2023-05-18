@@ -1136,18 +1136,6 @@ body {
     top: 0;
   }
 }
-.sc-cate .sticky-inner .cate-sticky.first {
-  height: auto;
-}
-.sc-cate .sticky-inner .cate-sticky.second {
-  height: auto;
-}
-.sc-cate .sticky-inner .cate-sticky.third {
-  height: auto;
-}
-.sc-cate .sticky-inner .cate-sticky.end {
-  height: auto;
-}
 .sc-cate .sticky-inner .cate-sticky .num-area {
   position: relative;
   -webkit-box-flex: 2;
