@@ -15,7 +15,7 @@ $(function(){
 
                 if(windowVal >= 1281){
                     $('body').removeClass('hidden');
-                }
+                };
             });
             /**
              * @마우스커서1_제품찾기
@@ -136,8 +136,8 @@ $(function(){
                 }else{
                     if($('.gnb .side-nav').hasClass('on')){
                         $('body').addClass('hidden');
-                    }
-                }
+                    };
+                };
             });
             /**
              * @마우스커서1_제품찾기
@@ -359,7 +359,7 @@ $(function(){
                         $('header').addClass('hide');
                     }else{
                         $('header').removeClass('hide');
-                    }
+                    };
                 }else{
                     $('header').removeClass('hide');
                 };
@@ -379,7 +379,7 @@ $(function(){
                         $('.fix-btn').addClass('hide');
                     }else{
                         $('.fix-btn').removeClass('hide');
-                    }
+                    };
                 }else{
                     $('.fix-btn').removeClass('hide');
                 };
