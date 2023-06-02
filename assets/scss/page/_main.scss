@@ -197,32 +197,6 @@
     color: #fff;
     z-index: 1;
 
-    .scroll{
-        position: absolute;
-        top: calc(100vh - 43px);
-        left: 50%;
-        transform: translateX(-50%);
-        width: auto;
-        height: 100%;
-        z-index: 10;
-        
-        @include tablet{
-            display: none;
-        }
-        span{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: sticky;
-            top: calc(100vh - 120px);
-            margin-bottom: 100vh;
-            width: 86px;
-            height: 86px;
-            border-radius: 50%;
-            background: rgb(147, 19, 19);
-            z-index: 10;
-        }
-    }
     .headline{
         position: absolute;
         top: 30px;
