@@ -753,8 +753,8 @@
             color: #fff;
 
             @include mobile{
-                background: none;
-                color: inherit;
+                background: #fff;
+                color: #174036;
             }
         }
     }

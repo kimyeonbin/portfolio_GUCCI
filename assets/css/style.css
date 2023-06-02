@@ -1502,7 +1502,7 @@ body {
 }
 @media (max-width: 767px) {
   .sc-theme .link-go:hover {
-    background: none;
-    color: inherit;
+    background: #fff;
+    color: #174036;
   }
 }

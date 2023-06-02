@@ -46,6 +46,7 @@
         }
         .nav-item{
             position: relative; 
+
             &::after{
                 position: absolute; 
                 bottom: 0;  
@@ -78,6 +79,7 @@
         }
         .util-item{
             position: relative; 
+            
             &::after{
                 position: absolute; 
                 bottom: 0;  
