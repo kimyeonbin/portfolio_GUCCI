@@ -508,6 +508,7 @@ body {
 @media (max-width: 1024px) {
   .cursor1 {
     visibility: hidden;
+    opacity: 0;
   }
 }
 
@@ -544,6 +545,7 @@ body {
 @media (max-width: 1024px) {
   .cursor2.show, .cursor3.show, .cursor4.show, .cursor5.show {
     visibility: hidden;
+    opacity: 0;
   }
 }
 
