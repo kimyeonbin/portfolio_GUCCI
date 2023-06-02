@@ -13,6 +13,7 @@
 @font-face {
   font-family: "Pretendard";
   src: url("../fonts/Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
 }
 :root {
   -webkit-tap-highlight-color: transparent;
@@ -501,14 +502,14 @@ body {
   border-radius: 50%;
   background: #fff;
   pointer-events: none;
-  visibility: visible;
   opacity: 1;
+  visibility: visible;
   z-index: 1;
 }
 @media (max-width: 1024px) {
   .cursor1 {
-    visibility: hidden;
     opacity: 0;
+    visibility: hidden;
   }
 }
 
@@ -537,15 +538,17 @@ body {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
   opacity: 0;
+  visibility: hidden;
 }
 .cursor2.show, .cursor3.show, .cursor4.show, .cursor5.show {
   opacity: 1;
+  visibility: visible;
   z-index: 1;
 }
 @media (max-width: 1024px) {
   .cursor2.show, .cursor3.show, .cursor4.show, .cursor5.show {
-    visibility: hidden;
     opacity: 0;
+    visibility: hidden;
   }
 }
 

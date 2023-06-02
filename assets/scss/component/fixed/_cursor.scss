@@ -13,13 +13,13 @@
     border-radius: 50%;
     background: #fff;
     pointer-events: none;
-    visibility: visible;
     opacity: 1;
+    visibility: visible;
     z-index: 1;
 
     @include tablet{
-        visibility: hidden;
         opacity: 0;
+        visibility: hidden;
     }
 }
 .cursor2, .cursor3, .cursor4, .cursor5{
@@ -40,14 +40,16 @@
     background: transparent;
     transition: opacity 0.3s;
     opacity: 0;
+    visibility: hidden;
 
     &.show{
         opacity: 1;
+        visibility: visible;
         z-index: 1;
 
         @include tablet{
-            visibility: hidden;
             opacity: 0;
+            visibility: hidden;
         }
     }
 }
