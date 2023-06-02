@@ -120,6 +120,14 @@ $(function(){
                 },
                 yPercent:100
             });
+            /**
+             * @제품색상선택텍스트_호버
+             */
+            $('.sc-theme .theme-area a').hover(function(){
+                $(this).siblings().css("opacity",0.1);
+            },function(){
+                $(this).siblings().css("opacity",1);
+            });
         },
 
 
@@ -242,6 +250,14 @@ $(function(){
                 },
                 yPercent:100
             });
+            /**
+             * @제품색상선택텍스트_호버
+             */
+            $('.sc-theme .theme-area a').hover(function(){
+                $(this).siblings().css("opacity",0.1);
+            },function(){
+                $(this).siblings().css("opacity",1);
+            });
         },
 
 
@@ -295,6 +311,14 @@ $(function(){
                 herePos=$('.here').offset().top;
                 window.scrollTo({top:herePos,behavior:"smooth"});
             });
+            /**
+             * @제품색상선택텍스트_호버
+             */
+            $('.sc-theme .theme-area a').hover(function(){
+                $(this).siblings().css("opacity",0.1);
+            },function(){
+                $(this).siblings().css("opacity",1);
+            });
          },
 
 
@@ -309,6 +333,14 @@ $(function(){
                 if(windowVal <= 767 && $('.gnb .side-nav').hasClass('on')){
                     $('body').addClass('hidden');
                 }
+            });
+            /**
+             * @제품색상선택텍스트_호버
+             */
+            $('.sc-theme .theme-area a').hover(function(){
+                $(this).siblings().css("opacity",1);
+            },function(){
+                $(this).siblings().css("opacity",1);
             });
         },
 
@@ -385,14 +417,6 @@ $(function(){
                 };
 
                 lastScroll2 = curr;
-            });
-            /**
-             * @제품색상선택텍스트_호버
-             */
-            $('.sc-theme .theme-area a').hover(function(){
-                $(this).siblings().css("opacity",0.1);
-            },function(){
-                $(this).siblings().css("opacity",1);
             });
         }
     });
