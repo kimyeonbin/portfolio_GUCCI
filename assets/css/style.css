@@ -507,7 +507,7 @@ body {
 }
 @media (max-width: 1024px) {
   .cursor1 {
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -543,7 +543,7 @@ body {
 }
 @media (max-width: 1024px) {
   .cursor2.show, .cursor3.show, .cursor4.show, .cursor5.show {
-    display: none;
+    visibility: hidden;
   }
 }
 
