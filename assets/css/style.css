@@ -856,9 +856,8 @@ body {
   width: 86px;
   height: 86px;
   border-radius: 50%;
-  z-index: 10;
-  white-space: nowrap;
   background: rgb(147, 19, 19);
+  z-index: 10;
 }
 .sc-collection .headline {
   position: absolute;
