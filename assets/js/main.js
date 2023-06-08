@@ -271,7 +271,7 @@ $(function(){
 
                 if(windowVal <= 1024 && $('.gnb .side-nav').hasClass('on')){
                     $('body').addClass('hidden');
-                }
+                };
             });
             /**
              * @컬렉션텍스트_나타남
@@ -332,7 +332,7 @@ $(function(){
 
                 if(windowVal <= 767 && $('.gnb .side-nav').hasClass('on')){
                     $('body').addClass('hidden');
-                }
+                };
             });
             /**
              * @제품색상선택텍스트_호버
