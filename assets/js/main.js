@@ -18,58 +18,6 @@ $(function(){
                 };
             });
             /**
-             * @마우스커서1_제품찾기
-             */
-            $('.sc-more').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY - ($('.sc-more').outerHeight()/2);
-
-                gsap.to('.cursor1',{
-                    left: '0%',
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.sc-more').mouseleave(function(e){
-                gsap.to('.cursor1',{
-                    x:0,
-                    y:0,
-                    left: '50%'
-                });
-            });
-            /**
-             * @마우스커서공통_카테고리
-             */
-            $('.col-sticky').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY;
-                $(this).find('.cursor-common').addClass('show');
-
-                gsap.to($(this).find('.cursor-common'),{
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.col-sticky').mouseleave(function(){
-                $(this).find('.cursor-common').removeClass('show');
-            });
-            /**
-             * @마우스커서5_선택배너
-             */
-            $('.sc-choice').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY;
-                $(this).find('.cursor5').addClass('show');
-
-                gsap.to($(this).find('.cursor5'),{
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.sc-choice').mouseleave(function(){
-                $(this).find('.cursor5').removeClass('show');
-            });
-            /**
              * @컬렉션텍스트_나타남
              */
             const headTxt = new SplitType('.sc-collection .col-sticky .title span', { types: 'words, chars'});
@@ -146,58 +94,6 @@ $(function(){
                         $('body').addClass('hidden');
                     };
                 };
-            });
-            /**
-             * @마우스커서1_제품찾기
-             */
-            $('.sc-more').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY - ($('.sc-more').outerHeight()/2);
-
-                gsap.to('.cursor1',{
-                    left: '0%',
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.sc-more').mouseleave(function(e){
-                gsap.to('.cursor1',{
-                    x:0,
-                    y:0,
-                    left: '50%'
-                });
-            });
-            /**
-             * @마우스커서공통_카테고리
-             */
-            $('.col-sticky').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY;
-                $(this).find('.cursor-common').addClass('show');
-
-                gsap.to($(this).find('.cursor-common'),{
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.col-sticky').mouseleave(function(){
-                $(this).find('.cursor-common').removeClass('show');
-            });
-            /**
-             * @마우스커서5_선택배너
-             */
-            $('.sc-choice').mousemove(function(e){
-                leftVal = e.offsetX;
-                topVal = e.offsetY;
-                $(this).find('.cursor5').addClass('show');
-
-                gsap.to($(this).find('.cursor5'),{
-                    x:leftVal,
-                    y:topVal,
-                });
-            });
-            $('.sc-choice').mouseleave(function(){
-                $(this).find('.cursor5').removeClass('show');
             });
             /**
              * @컬렉션텍스트_나타남
@@ -347,8 +243,60 @@ $(function(){
 
         "all": function() {
             /**
+             * @마우스커서1_제품찾기
+             */
+            $('.sc-more').mousemove(function(e){
+                leftVal = e.offsetX;
+                topVal = e.offsetY - ($('.sc-more').outerHeight()/2);
+
+                gsap.to('.cursor1',{
+                    left: '0%',
+                    x:leftVal,
+                    y:topVal,
+                });
+            });
+            $('.sc-more').mouseleave(function(e){
+                gsap.to('.cursor1',{
+                    x:0,
+                    y:0,
+                    left: '50%'
+                });
+            });
+            /**
+             * @마우스커서공통_카테고리
+             */
+            $('.col-sticky').mousemove(function(e){
+                leftVal = e.offsetX;
+                topVal = e.offsetY;
+                $(this).find('.cursor-common').addClass('show');
+
+                gsap.to($(this).find('.cursor-common'),{
+                    x:leftVal,
+                    y:topVal,
+                });
+            });
+            $('.col-sticky').mouseleave(function(){
+                $(this).find('.cursor-common').removeClass('show');
+            });
+            /**
+             * @마우스커서5_선택배너
+             */
+            $('.sc-choice').mousemove(function(e){
+                leftVal = e.offsetX;
+                topVal = e.offsetY;
+                $(this).find('.cursor5').addClass('show');
+
+                gsap.to($(this).find('.cursor5'),{
+                    x:leftVal,
+                    y:topVal,
+                });
+            });
+            $('.sc-choice').mouseleave(function(){
+                $(this).find('.cursor5').removeClass('show');
+            });
+            /**
              * @구찌텍스트_나타남
-            */
+             */
             const gucciTxt = new SplitType('.sc-intro .desc span', { types: 'words, chars'});
 
             $('.sc-intro').each(function(i,el){
