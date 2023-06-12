@@ -74,14 +74,14 @@
         }
     }
     .desc-box{
-        width: 100%;
         display: flex;
         justify-content: space-between;
         position: absolute;
-        bottom: 15%;
         left: 0;
-        font-size: 16px;
+        bottom: 15%;
+        width: 100%;
         padding: 0 35px;
+        font-size: 16px;
 
         @include mobile{
             top: 85px;

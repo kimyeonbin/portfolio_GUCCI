@@ -251,7 +251,6 @@ body {
 @media (max-width: 1280px) {
   .gnb .side-nav {
     display: block;
-    visibility: hidden;
     position: fixed;
     top: 70px;
     height: calc(100vh - 70px);
@@ -259,6 +258,7 @@ body {
     width: 100%;
     left: -100%;
     overflow-y: auto;
+    visibility: hidden;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -661,7 +661,6 @@ body {
           transform: translateY(100%);
 }
 .sc-intro .desc-box {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -669,10 +668,11 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
-  bottom: 15%;
   left: 0;
-  font-size: 16px;
+  bottom: 15%;
+  width: 100%;
   padding: 0 35px;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   .sc-intro .desc-box {
