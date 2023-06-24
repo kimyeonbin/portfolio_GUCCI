@@ -74,7 +74,6 @@ body {
   color: #174036;
   background: #fff;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
 }
 
 .blind {
