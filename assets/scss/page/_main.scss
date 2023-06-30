@@ -10,7 +10,6 @@
     }
     @include tablet{
         height: 95vh;
-
     }
     @include mobile{
         height: 95vw;
@@ -165,7 +164,6 @@
             @media (max-width: 400px){
                 font-size: 4.8vw;
             }
-
             br{
                 display: none;
 
@@ -388,7 +386,6 @@
         @include desktop{
             padding-bottom: 0;
         }
-
         .cate-sticky{
             position: sticky;
             display: flex;
